@@ -245,5 +245,7 @@ def run_backtest(n, ticker, start, end, capital, strategy, param1, param2):
 
     return metrics, fig1, fig2, table
 
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=False)
